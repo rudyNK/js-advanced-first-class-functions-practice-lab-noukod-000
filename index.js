@@ -19,11 +19,11 @@ const driversByRevenue = function (drivers) {
   });
 };
 
-// driversByName = function(drivers) {
-//   return drivers.slice().sort(function (driverOne, driverTwo){
-//     return driverOne.name.localeCompare(driverTwo.name);
-//   });
-// };
+driversByName = function(drivers) {
+  return drivers.slice().sort(function (driverOne, driverTwo){
+    return driverOne.name.localeCompare(driverTwo.name);
+  });
+};
 //
 // const totalRevenue = function (drivers) {
 //   return drivers.reduce(function ( total, currentDriver) {
