@@ -25,12 +25,12 @@ driversByName = function(drivers) {
   });
 };
 //Just the other part
-// const totalRevenue = function (drivers) {
-//   return drivers.reduce(function ( total, currentDriver) {
-//     return currentDriver.revenue + total;
-//   }, 0);
-// };
-//
+const totalRevenue = function (drivers) {
+  return drivers.reduce(function ( total, currentDriver) {
+    return currentDriver.revenue + total;
+  }, 0);
+};
+
 // const averageRevenue = function (drivers) {
 //   return totalRevenue(drivers) / drivers.length;
 // };
