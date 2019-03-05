@@ -24,7 +24,7 @@ driversByName = function(drivers) {
     return driverOne.name.localeCompare(driverTwo.name);
   });
 };
-//
+//Just the other part
 // const totalRevenue = function (drivers) {
 //   return drivers.reduce(function ( total, currentDriver) {
 //     return currentDriver.revenue + total;
